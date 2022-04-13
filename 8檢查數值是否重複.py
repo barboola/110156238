@@ -1,0 +1,5 @@
+a=input("輸入第一行正整數為:")
+nums=list(map(int,input("第二行中數列中的數字為:").split()))
+maxnums = max(nums,key=nums.count)
+print(f"最大出現的數{maxnums}")
+print(f"出現幾次{len(str(maxnums))}")
